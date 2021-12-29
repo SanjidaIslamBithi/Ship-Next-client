@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+/* all global style */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  /* background-color: #F2F3F8; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rounded{
+  border-radius: 10px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shadow{
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-black-btn{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-black-btn:hover{
+  background-color: rgba(0, 0, 0, 0.800);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-hook-link{
+  text-decoration: none;
+  color: black;
+}
+.react-hook-link:hover .card-title{
+  text-decoration: underline;
+  color: #424242;
+
+}
+.react-hook-link:hover .item-price{
+  color: black;
+}
+
+.react-hook-link:hover{
+  color: black;
+}
+
+.product:hover img{
+  opacity: .8;
+}
+
+.product img{
+  transition: 0.3s
 }

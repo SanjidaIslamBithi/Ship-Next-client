@@ -1,0 +1,37 @@
+.about{
+    background-image: url('../../../images/jordan-nix-4Hmj9gkyM6c-unsplash.jpg');
+    background-position: center;
+  background-size: cover;
+  height: 400px;
+  background-blend-mode: overlay;
+  margin-bottom: 50px;
+}
+/* .about-banner{
+  background-image: url('');
+  background-position: center;
+background-size: cover;
+height: 400px;
+background-blend-mode: overlay;
+margin-bottom: 50px;
+} */
+.about1{
+text-align: center;
+padding-top: 150px;
+}
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
+.pic{
+    height: 300px;
+}
+.about-bg{
+  background-color: black;
+  color: aliceblue;
+}

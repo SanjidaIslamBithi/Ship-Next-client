@@ -1,0 +1,19 @@
+.banner-section{
+    height: 100vh;
+    background: url(../../../images/young-woman-yellow-leather-jacket-copy-space.jpg) no-repeat center center fixed;
+    background-size: cover;
+   
+}
+
+.banner-section-inner{
+    margin-top: 150px;
+}
+.custom-black-btn{
+    background-color: black;
+    color: white;
+  }
+  
+  .custom-black-btn:hover{
+    background-color: rgba(0, 0, 0, 0.800);
+    color: white;
+  }

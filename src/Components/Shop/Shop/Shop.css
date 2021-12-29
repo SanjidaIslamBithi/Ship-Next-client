@@ -1,0 +1,14 @@
+.sty {
+    background-image: url('../../../images/jordan-nix-4Hmj9gkyM6c-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    text-align: center;
+    padding-top: 150px;
+    height: 500px;
+    color: white;
+  }
+  

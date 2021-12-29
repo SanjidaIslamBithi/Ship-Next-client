@@ -1,0 +1,18 @@
+.review-section {
+  background: url(../../../images//freestocks-spP6LqxN0-g-unsplash.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+  /* height: 600px; */
+}
+
+.star-rating {
+  color: #f8b712;
+}
+
+/* .review {
+  text-align: justify;
+} */
+
+/* .review-img{
+  margin: -50px;
+} */

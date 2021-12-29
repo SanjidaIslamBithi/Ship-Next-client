@@ -1,0 +1,23 @@
+.login-form input {
+    display: block;
+    /* margin-top: 30px; */
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* width: 300px; */
+}
+
+.error{
+    color: red;
+}
+
+.login-page{
+   
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.774), rgba(255, 255, 255, 0.73)),
+    url('../../../images/ShipNext.png');
+    background-size: cover;
+    
+}
+
+
